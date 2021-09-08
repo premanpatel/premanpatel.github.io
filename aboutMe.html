@@ -15,9 +15,15 @@
     body {
         background-color: #85dcb8;
         text-align: center;
+        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size: 23px;
+        font-style: normal;
+        font-variant: normal; 
+        font-weight: 400; 
+        line-height: 23px;
     }
     p {
-        font-size: larger;
+        font-size: large;
     }
     img{
         object-fit: cover;
@@ -29,14 +35,17 @@
         margin-right: auto;
         
     }
+    ul{
+        display: inline-block;
+    }
     </style>
 </head>
 
 <body>
     <div class="content">
-        <h1> About Me </h1>
         <img src="img/skydiving.JPG" alt="">
         <div class="aboutMe">
+            <h1> About Me </h1>
             <p> Hello World! I'm Premanshu (Preman) Patel, I'm a 
                 Junior Computer Science Major. Some of my hobbies 
                 include going to the gym, hangout with friends and
@@ -44,8 +53,16 @@
                 software engineering. One intersting fact about me 
                 is that I jumped out of a plane.
             </p>
+            <h2>My Interests in Web Development</h2>
+            <ul>
+                <li>Visual Design</li>
+                <li>User interaction</li>
+                <li>Ease of Use</li>
+            </ul>
         </div>
-        <a href="https://premanpatel.github.io/">Back</a>
+        <form action="https://premanpatel.github.io/">
+            <input type="submit" value="Back"/>
+        </form>
     </div>
 </body>
 </html>
