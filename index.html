@@ -6,12 +6,21 @@
 <!-- CSS for index.html -->
     <style>
         .myName {
-            border: 10px solid #e27d60;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .border {
+            border: 50px #e27d60;
         }
         .content {
-            max-width: fit-content;
-            margin: auto;
+            max-width: 800px;
+            height: ;
             background-color: #e27d60;
+            margin: 0 auto;
+            vertical-align: middle;
+            align-items: center;
+            
         }
         body {
             background-color: #85dcb8;
@@ -22,11 +31,10 @@
             font-variant: normal; 
             font-weight: 400; 
             line-height: 23px;
+            
         }
-        img {
-            border: 10px solid #e27d60;
-        }
-
+        
+    
     </style>
 
 </head>
@@ -35,39 +43,42 @@
     <h1> 
         Personal Web Page 1
     </h1>
-    
-    <div class="content">
-        
-        <!-- My preferred name and full name-->
-        <div class="myName">
-            <h2>Name you go by in class: Preman</h2>
-            <h2>Your full first and last name: Premanshu Patel</h2>
+
+    <div class="border">
+
+        <div class="content">
+            
+            <!-- My preferred name and full name-->
+            <div class="myName">
+                <h2>Premanshu Patel</h2>
+                <h2>I also go by is Preman</h2>
+            </div>
+
+            <!-- Image of Premanshu Patel -->
+            <img src="img/picOfMe.jpg" width="500" height="650" alt="">
+
+            <!-- Buttons leading to different webpages -->
+            <form action="https://premanpatel.github.io/aboutMe.html">
+                <input type="submit" value="About Me"/>
+            </form>
+
+            <form action="https://premanpatel.github.io/">
+                <input type="submit" value="My Github Webpage"/>
+            </form>
+
+            <form action="https://CaseStingray173.github.io">
+                <input type="submit" value="Previous Webpage"/>
+            </form> 
+
+            <form action="https://kpelster.github.io/">
+                <input type="submit" value="Next Webpage"/>
+            </form>
+
+            <form action="https://mattm401.github.io/">
+                <input type="submit" value="CISC474 Webpage"/>
+            </form>
+
         </div>
-
-        <!-- Image of Premanshu Patel -->
-        <img src="img/picOfMe.jpg" width="500" height="650" alt="">
-
-        <!-- Buttons leading to different webpages -->
-        <form action="https://premanpatel.github.io/aboutMe.html">
-            <input type="submit" value="About Me"/>
-        </form>
-
-        <form action="https://premanpatel.github.io/">
-            <input type="submit" value="My Github Webpage"/>
-        </form>
-
-        <form action="https://CaseStingray173.github.io">
-            <input type="submit" value="Previous Webpage"/>
-        </form> 
-
-        <form action="https://kpelster.github.io/">
-            <input type="submit" value="Next Webpage"/>
-        </form>
-
-        <form action="https://mattm401.github.io/">
-            <input type="submit" value="CISC474 Webpage"/>
-        </form>
-
     </div>
 </body>
 </html>
