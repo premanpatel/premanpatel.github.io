@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Preman's Webpage </title>
+    <!-- CSS for index.html -->
+    <script src='js/contact.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_oNzOXvHdUwqfI5dTc9WRm");
+        })();
+    </script>
+    <script>
+        /**
+         * User ID  user_oNzOXvHdUwqfI5dTc9WRm
+            Access Token    9e6109dbcef5c2f47548cec696b8d8d0
+         * **/
+    </script>
+</head>
+
+<body>
+    <div class="contactForm">
+        <h3>Contact Form</h3>
+        <form>
+            <label>First Name: </label><br>
+            <input type="text" id="user_fname">
+            <label>Last Name: </label><br>
+            <input type="text" id="user_lname">
+            <label>Email Address: </label><br>
+            <input type="email" id="user_email">
+            <label>Phone Number: </label><br>
+            <input type="tel" id="user_phone">
+            <label>Message: </label><br>
+            <textarea id="user_message" class="user_message" rows="4" cols="50"></textarea>
+            <button onclick="sendMail()">Submit</button>
+        </form>
+    </div>
+</body>
