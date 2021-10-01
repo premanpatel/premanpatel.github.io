@@ -10,5 +10,10 @@
             }, function(error) {
                 console.log('FAILED...', error);
             });
+        this.forEach(input => {
+            input.value = ''
+        });
+        alert("Message was sent!")
+        
     });
 }
