@@ -15,7 +15,6 @@ body {
     padding: 25px;
     margin: auto;
     text-align: center;
-
 }
 
 /*  CSS for NavBar */
@@ -25,6 +24,7 @@ header{
     align-items: center;
     padding: 30px 10%;
     background-color: #e27d60;
+    margin: 0px;
 }
 button{
     padding: 9px 25px;
@@ -37,6 +37,24 @@ button{
 button:hover{
     background-color: #c38d9c;
 
+}
+.contactForm {
+    width: 500px;
+    margin-top: 50px;
+}
+input[type=text], input[type=tel], input[type=email], input[type=submit]{
+    margin-top: 10px;
+    width: 75%;
+    height: 35px;
+    background-color: #e8a87c;
+    border: transparent;
+}
+textarea {
+    margin-top: 15px;
+    width: 75%;
+    height: 100px;
+    background-color: #e8a87c;
+    border: transparent;
 }
 
 
