@@ -13,21 +13,27 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <link href="css/contact.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- Navigation Bar-->
     <header>
         <a class="cta" href="https://premanpatel.github.io/">Home</a>
-        <a class="cta" href="aboutMe.html">About Me</a>
+        <a class="cta" href="aboutMe.html">Resume</a>
         <a class="cta" href="contact.html">Contact Me</a>
-        <a class="cta" href="https://mattm401.github.io/">Course Page</a>
-        <a class="cta" href="https://CaseStingray173.github.io">Previous</a>
-        <a class="cta" href="https://kpelster.github.io/">Next</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Class Links</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a class="cta" href="https://mattm401.github.io/">Course Page</a>
+                <a class="cta" href="https://kpelster.github.io/">Next</a>
+                <a class="cta" href="https://CaseStingray173.github.io">Previous</a>
+            </div>
+        </div>
     </header> 
     <div class="contactForm">
         <h3>Contact Form</h3>
+        <!-- Input for Contact Form -->
         <form id="contact-form">
             <input type="hidden" name="contact_number">
 
@@ -54,4 +60,11 @@
             <input type="submit" value="Send">
         </form>
     </div>
+     <!-- Footer for social media links -->
+     <footer class="footer">
+        <a href="https://www.linkedin.com/in/premanshu-patel/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/premanpatel" class="fa fa-github"></a>
+        <a href="mailto:pmpatel@udel.edu" class="fa fa-google"></a>
+    </footer>
 </body>
+</html>

@@ -6,40 +6,34 @@
 
     <!-- CSS for aboutMe.html-->
     <link href="css/aboutMe.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/aboutMe.js"></script>
 </head>
 
 <body>
     <!-- Navigation Bar-->
     <header>
         <a class="cta" href="https://premanpatel.github.io/">Home</a>
-        <a class="cta" href="aboutMe.html">About Me</a>
+        <a class="cta" href="aboutMe.html">Resume</a>
         <a class="cta" href="contact.html">Contact Me</a>
-        <a class="cta" href="https://mattm401.github.io/">Course Page</a>
-        <a class="cta" href="https://CaseStingray173.github.io">Previous</a>
-        <a class="cta" href="https://kpelster.github.io/">Next</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Class Links</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a class="cta" href="https://mattm401.github.io/">Course Page</a>
+                <a class="cta" href="https://kpelster.github.io/">Next</a>
+                <a class="cta" href="https://CaseStingray173.github.io">Previous</a>
+            </div>
+        </div>
     </header>
     <div class="content">
-
-        <!-- Skydiving picture of Premanshu Patel -->
-        <img src="img/skydiving.JPG" alt="">
-        <div class="aboutMe">
-            <!-- The About Me section of the webpage -->
-            <h1> About Me </h1>
-            <p> Hello World! I'm Premanshu (Preman) Patel, I'm a 
-                Junior Computer Science Major. Some of my hobbies 
-                include going to the gym, hangout with friends and
-                playing video games. I am aspiring for a career in 
-                software engineering. One intersting fact about me 
-                is that I jumped out of a plane.
-            </p>
-
-            <h2>My Interests in Web Development</h2>
-            <ul>
-                <li>Visual Design</li>
-                <li>User interaction</li>
-                <li>Ease of Use</li>
-            </ul>
-        </div>
+        <embed src="extraFiles/Patel, Premanshu - Resume copy.pdf" width="800px" height="1090px" /> 
+       
     </div>
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/premanshu-patel/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/premanpatel" class="fa fa-github"></a>
+        <a href="mailto:pmpatel@udel.edu" class="fa fa-google"></a>
+    </footer>
 </body>
 </html>
