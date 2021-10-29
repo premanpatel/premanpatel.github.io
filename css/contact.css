@@ -108,6 +108,10 @@ textarea {
     align-items: center;
     padding: 30px 10%;
     background-color: #e27d60;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 .fa {
     padding: 20px;
