@@ -10,6 +10,9 @@ body {
     line-height: 23px;
     padding-bottom: 2.5rem; 
 }
+ul{
+    list-style: inside;
+}
 .content{
     display:table;
     margin-left:auto;
@@ -87,13 +90,12 @@ header{
   /* social media Buttons */
 .footer{
     margin-top: 60px;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #e27d60;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem; 
+    align-items:stretch;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:125px;   
+    background:#e27d60;    
 }
 .fa {
     padding: 20px;
